@@ -1,0 +1,141 @@
+* { font-family:arial; }
+body { margin:0px; }
+#login, #combos, #paging { position:relative; float:left; }
+#login
+{
+	width:100%; 
+	padding:10px 0px 10px 0px;
+	background:#324A7D;	color:#A3AFC9;
+	text-align:right;
+}
+#combos
+{
+	width:20%; 
+	background:linear-gradient(to bottom, #4D6FBA, #3F5B96);	
+	color:#A3AFC9;
+}
+#combos select, #combos input
+{
+	width:90%; padding:10px; margin:5% 5px 10px 5%;
+	font-size:12pt;
+}
+#combos label
+{ 
+	margin:30px, 20px, auto, 20px;
+	padding:5%;
+	font-size:12pt;	
+}
+#paging 
+{
+	width:80%;	
+	background:#DDD; 
+	text-align:right;
+}
+.buttonPage, .buttonActivePage, .buttonPageOver
+{
+	margin:5px 1px 5px 0px; 
+	padding:5px 10px 5px 10px; 
+	border:0px;
+	font-size:10pt;	
+}
+.buttonPage
+{
+	background:linear-gradient(to bottom, #BBB, #AAA);
+	color:#333;
+	cursor:pointer;
+}
+.buttonPageOver
+{
+	background:linear-gradient(to bottom, #CCC, #BBB);
+	color:#333;
+	cursor:pointer;
+}
+.buttonActivePage
+{
+	background:linear-gradient(to bottom, #4DBA61, #2B913E);
+	color:#FFF;
+}
+
+.buttonGreenUp, .buttonGreenDown
+{ 
+	width:90%; padding:10px; margin:5% 5px 10px 5%;
+	font-size:16pt;	
+	color:#FFF;
+	border:0px;
+	cursor:pointer;
+}
+.buttonGreenUp 
+{
+	background:linear-gradient(to bottom, #4DBA61, #2B913E);
+}
+.buttonGreenDown 
+{
+	background:linear-gradient(to bottom, #2B913E, #4DBA61);
+}
+
+#cars
+{
+	position:relative; float:left; width:80%;
+}
+#tablecars
+{
+	width:100%; background:#999; border-spacing:1px;
+}
+#tablecars td
+{
+	padding:10px; color:#555;	font-size:12pt; text-align:center;
+}
+#tablecars td img
+{
+	width:80%; 
+}
+.tablecarsheader td
+{
+	background:linear-gradient(to bottom, #DDD, #BBB); 
+}
+.tablecarsrow td
+{
+	background:#FFF;
+}
+.tablecarsrowalternate td
+{
+	background:#EEE;
+}
+
+.divcar
+{
+	position:relative; float:left;
+	width:31.3%; margin:10px 1% 10px 1%;
+	box-shadow:0px 0px 20px #DDD;
+	min-height:300px;
+}
+.divcar img { 	width:80%; margin-top:10px; }
+.divcarimage, .divcardescription, .divcarcolor, .divcarprice
+{
+	position:relative; float:left; width:100%;
+	margin:5px 0px 5px 0px; text-align:center;
+}
+.divcardescription {	font-size:12pt; color:#555; }
+.divcarcolor {	font-size:10pt; color:#777; }
+.divcarprice { font-size:14pt; font-weight:bold; color:#2B913E; }
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

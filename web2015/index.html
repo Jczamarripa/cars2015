@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Index</title>
+		<script src="js/functions.js"></script>
+		<script src="js/classes.js"></script>
+		<link href="css/style.css" rel="stylesheet"></link>
+	</head>
+	<body onLoad="onLoad();">
+		<div id="login"></div>
+		<div id="combos">
+			<br>
+			<label>Make :</label>
+			<select id="selMakes" onChange="getModels(this.value);"></select>
+			<label>Model :</label>
+			<select id="selModels"></select>
+			<label>Price :</label>
+			<input id="txtPriceMin"></input>
+			<input id="txtPriceMax"></input>
+			<label>Year :</label>
+			<input id="txtYearMin"></input>
+			<input id="txtYearMax"></input>
+			<label>Order By:</label>
+			<select id="selOrderBy">
+				<option>Year Low to High</option>
+				<option>Year High to Low</option>
+				<option>Price Low to High</option>
+				<option>Price High to Low</option>
+			</select>
+			<label>Rows per Page:</label>
+			<select id="selRowsPerPage">
+				<option value="0">Show All</option>
+				<option value="5">5</option>
+				<option value="10">10</option>
+			</select>
+			<button id="btnSearch" 
+				class="buttonGreenUp" 
+				onMouseDown="this.className='buttonGreenDown';" 
+				onMouseUp="this.className='buttonGreenUp';"
+				onClick="newSearch=true; getCars(1);">
+				Search
+			</button>
+		</div>
+		<div id="paging"></div>
+		<div id="cars">
+			<!--<table id="tablecars">
+				<tr class="tablecarsheader">
+					<td width="25%">Image</td>
+					<td width="15%">Id</td>
+					<td width="20%">Year</td>
+					<td width="20%">Price</td>
+					<td width="20%">Color</td>
+				</tr>
+			</table>-->
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
